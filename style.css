@@ -36,9 +36,9 @@ font-size:100%;
 }
 
 .storyparagraphs{
-	/*-webkit-column-count:3; 
+	webkit-column-count:3; 
 	-moz-column-count:3; 
-	column-count:3;*/
+	column-count:3;
 	font-family: Didot, Garamond, serif;, sans-serif;
 	font-size: 18px;
 	padding-left: 200px;
@@ -78,19 +78,21 @@ h1{
 
 .box{
 	width:20px;
-	height:20px;
+	height:80px;
 	float: left;
 	padding: 20px;
-	margin: 20px;
+	margin: 100px;
 	margin-top: 50px;
 	position: relative;
 	word-wrap: break-word;
-	float: left;
 }
+
+
 
 #houseBurn1{
 	width:100px;
 	height:75px;
+
 
 }
 
@@ -110,6 +112,16 @@ h1{
 	width:100px;
 	height:75px;
 
+}
+
+#photocontainer{
+	height:200px;
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	float:left;
+	/*margin: 50px;*/
 }
 
 .pullquote{
