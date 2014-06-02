@@ -156,3 +156,11 @@ h1{
 	width: auto;
 	border: 3px solid black;
 }
+
+.home{
+	height: 60px;
+	width: 60px;
+	position: inherit;
+	padding-left: 50%;
+	padding-right: 50%;
+}

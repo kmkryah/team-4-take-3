@@ -2,21 +2,21 @@ $(".home").click(backToTop);
 console.log("hi");
 
 function backToTop(){
-window.scrollTo(5,635);
+window.scrollTo(5,1155);
 } 
 
 $("#boxA").click(scrollGoodRelationships);
 console.log("Yo");
 
 function scrollGoodRelationships(){
-	window.scrollTo(5,1629);
+	window.scrollTo(5,1679);
 }
 
 $("#boxB").click(scrollBadRelationships);
 console.log("Aye");
 
 function scrollBadRelationships(){
-	window.scrollTo(5,2973);
+	window.scrollTo(5,3083);
 }
 
 $("#boxC").click(scrollWorstCase);
@@ -27,7 +27,7 @@ console.log("Hey");
 //}
 
 function scrollWorstCase(){
-  window.scrollTo(5, 3619);
+  window.scrollTo(5, 3789);
 }
 
 
@@ -35,7 +35,7 @@ $("#boxD").click(scrollLandlord);
 console.log("Hello");
 
 function scrollLandlord(){
-	window.scrollTo(5,4550);
+	window.scrollTo(5,4790);
 }
 
 //$(function() {
