@@ -9,14 +9,14 @@ $("#boxA").click(scrollGoodRelationships);
 console.log("Yo");
 
 function scrollGoodRelationships(){
-	window.scrollTo(5,1370);
+	window.scrollTo(5,1629);
 }
 
 $("#boxB").click(scrollBadRelationships);
 console.log("Aye");
 
 function scrollBadRelationships(){
-	window.scrollTo(5,2254);
+	window.scrollTo(5,2973);
 }
 
 $("#boxC").click(scrollWorstCase);
@@ -27,7 +27,7 @@ console.log("Hey");
 //}
 
 function scrollWorstCase(){
-  $("body").scrollTo("#test");
+  window.scrollTo(5, 3619);
 }
 
 
@@ -35,7 +35,7 @@ $("#boxD").click(scrollLandlord);
 console.log("Hello");
 
 function scrollLandlord(){
-	window.scrollTo(5,4461);
+	window.scrollTo(5,4550);
 }
 
 //$(function() {
