@@ -27,7 +27,7 @@ console.log("Hey");
 //}
 
 function scrollWorstCase(){
-  window.scrollTo(5, 4504);
+  window.scrollTo(5, 3839);
 }
 
 
@@ -35,10 +35,8 @@ $("#boxD").click(scrollLandlord);
 console.log("Hello");
 
 function scrollLandlord(){
-	window.scrollTo(5,6150);
+	window.scrollTo(5,4840);
 }
-
-//5644
 
 //$(function() {
 //        $("#houseBurn1").hover(
