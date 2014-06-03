@@ -38,7 +38,7 @@ window.scrollTo(5,1155);
 // 	window.scrollTo(5,4840);
 // }
 
-$('.box a').smoothScroll();
+$('.flipper a').smoothScroll();
 $('.home a').smoothScroll();
 
 
