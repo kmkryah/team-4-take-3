@@ -5,38 +5,45 @@ function backToTop(){
 window.scrollTo(5,1155);
 } 
 
-$("#boxA").click(scrollGoodRelationships);
-console.log("Yo");
+// // $("#boxA").click(scrollGoodRelationships);
+// // console.log("Yo");
 
-function scrollGoodRelationships(){
-	window.scrollTo(5,1729);
-}
+// // function scrollGoodRelationships(){
+// // 	window.scrollTo(5,1729);
+// // }
 
-$("#boxB").click(scrollBadRelationships);
-console.log("Aye");
+// $("#boxB").click(scrollBadRelationships);
+// console.log("Aye");
 
-function scrollBadRelationships(){
-	window.scrollTo(5,3133);
-}
+// function scrollBadRelationships(){
+// 	window.scrollTo(5,3133);
+// }
 
-$("#boxC").click(scrollWorstCase);
-console.log("Hey");
+// $("#boxC").click(scrollWorstCase);
+// console.log("Hey");
 
-//function scrollWorstCase(){
-//	window.scrollTo(5,3166);
-//}
+// //function scrollWorstCase(){
+// //	window.scrollTo(5,3166);
+// //}
 
-function scrollWorstCase(){
-  window.scrollTo(5, 3839);
-}
+// function scrollWorstCase(){
+//   window.scrollTo(5, 3839);
+// }
 
 
-$("#boxD").click(scrollLandlord);
-console.log("Hello");
+// $("#boxD").click(scrollLandlord);
+// console.log("Hello");
 
-function scrollLandlord(){
-	window.scrollTo(5,4840);
-}
+// function scrollLandlord(){
+// 	window.scrollTo(5,4840);
+// }
+
+$('.box a').smoothScroll();
+$('.home a').smoothScroll();
+
+
+
+
 
 //$(function() {
 //        $("#houseBurn1").hover(
